@@ -1,0 +1,11 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
