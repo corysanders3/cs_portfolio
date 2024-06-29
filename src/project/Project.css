@@ -1,0 +1,13 @@
+.project-name {
+    text-align: center;
+    color: #fff;
+}
+
+.project-image {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.each-project:hover {
+    cursor: pointer;
+}

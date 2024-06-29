@@ -1,0 +1,10 @@
+.about-main {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 30px;
+}
+
+.cory-pic {
+    width: 250px;
+    border-radius: 200px;
+}
