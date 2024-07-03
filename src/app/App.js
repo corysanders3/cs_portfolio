@@ -6,11 +6,11 @@ import About from '../about/About';
 function App() {
 
   return (
-    <>
+    <main className='app-main'>
       <Nav />
       <About />
       <Home />
-    </>
+    </main>
   );
 }
 
