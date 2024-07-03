@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #1B4280;
+    height: 80px;
 }
 
 .nav-header {
@@ -28,4 +29,15 @@
     background-color: #3b3b3b;
     color: #fff;
     border: 2px solid #fff;
+}
+
+@media screen and (max-width: 690px) {
+    .nav-header {
+        font-size: 0px;
+    }
+
+    .nav-container {
+        display: flex;
+        justify-content: center;
+    }
 }

@@ -26,7 +26,7 @@ function About() {
                     </div>
                 </div>
                 <div>
-                    <p className='tech-header'>Relevant Information</p>
+                    <p className='tech-header'>Highlights</p>
                     <ul className='ul'>
                         <li>Accredited Software Engineering Certificate from Turing School of Software and Design</li>
                         <li>Awarded Second Place in Turing Demo Comp for Spilled Project (see project below)</li>

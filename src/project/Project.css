@@ -11,3 +11,22 @@
 .each-project:hover {
     cursor: pointer;
 }
+
+.summary {
+    text-align: center;
+    color: #fff;
+    font-size: large;
+    margin: 5px 10px;
+}
+
+@media screen and (max-width: 450px) {
+    .project-image {
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .summary {
+        font-size: 16px;
+        margin: 5px 5px;
+    }
+}

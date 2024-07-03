@@ -1,6 +1,7 @@
 .about-main {
     display: flex;
     margin: 30px 30px;
+    gap: 20px;
 }
 
 .pic-container, .about-container {
@@ -35,7 +36,7 @@
 }
 
 .about-text {
-    margin: 10px 50px 0px 0px;
+    margin: 10px 20px 0px 0px;
     font-size: larger;
 }
 
@@ -56,4 +57,66 @@
     margin: 0px 40px;
     padding-top: 0px;
     font-size: larger;
+}
+
+@media screen and (max-width: 787px) {
+    .name-text {
+        font-size: 50px;
+    }
+    
+    .title-text {
+        font-size: 70px;
+    }
+
+    .about-text {
+        margin: 10px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .about-main {
+        flex-direction: column-reverse;
+        gap: 40px;
+        margin: 20px 30px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .name-text {
+        font-size: 40px;
+    }
+    
+    .title-text {
+        font-size: 60px;
+    }
+
+    .about-main {
+        margin: 20px 20px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .name-text {
+        font-size: 30px;
+    }
+    
+    .title-text {
+        font-size: 50px;
+    }
+
+    .about-main {
+        margin: 20px 20px;
+    }
+
+    .tech-stack, .ul {
+        margin: 0px;
+    }
+
+    .about-text, .ul {
+        font-size: large;
+    }
+
+    .title-text {
+        margin-top: 0px;
+    }
 }

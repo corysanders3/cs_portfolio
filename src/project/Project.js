@@ -10,7 +10,7 @@ function Project({ name, image, url, summary }) {
                 alt={`Image of ${name} project`} 
                 className='project-image'
             />
-            <p>{summary}</p>
+            <p className='summary'>{summary}</p>
         </div>
     )
 }
