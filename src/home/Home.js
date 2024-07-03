@@ -20,6 +20,7 @@ function Home() {
                 name={project.name} 
                 image={project.image}
                 url={project.url}
+                summary={project.summary}
             />
         )
     })

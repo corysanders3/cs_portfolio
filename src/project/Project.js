@@ -1,6 +1,6 @@
 import './Project.css'
 
-function Project({ name, image, url }) {
+function Project({ name, image, url, summary }) {
     
     return (
         <div className='each-project' onClick={() => window.open(url, '_blank')}>
@@ -10,6 +10,7 @@ function Project({ name, image, url }) {
                 alt={`Image of ${name} project`} 
                 className='project-image'
             />
+            <p>{summary}</p>
         </div>
     )
 }

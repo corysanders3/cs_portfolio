@@ -3,12 +3,13 @@
     margin: 30px 30px;
 }
 
-.pic-container, .about-text {
+.pic-container, .about-container {
     flex: 1;
 }
 
 .pic-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -19,16 +20,40 @@
     text-align: center;
 }
 
-.cory-text, .sanders-text {
+.name-text, .title-text {
     margin: 0;
     padding: 0;
 }
 
-.cory-text {
+.name-text {
     font-size: 60px;
 }
 
-.sanders-text {
-    font-size: 100px;
-    margin-top: -20px;
+.title-text {
+    font-size: 80px;
+    margin-top: -10px;
+}
+
+.about-text {
+    margin: 10px 50px 0px 0px;
+    font-size: larger;
+}
+
+.tech-stack {
+    text-align: center;
+    margin: 0px 40px;
+}
+
+.tech-header {
+    font-size: larger;
+    font-family: "Playwrite NZ", cursive;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.ul {
+    margin: 0px 40px;
+    padding-top: 0px;
+    font-size: larger;
 }
